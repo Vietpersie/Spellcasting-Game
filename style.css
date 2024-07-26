@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", "Arial", sans-serif;
+}
+
+#container {
+    width: 760px;
+    margin: 0 auto;
+}
+
+#cave {
+    background-image: url("https://i.gifer.com/2HWP.gif");
+    background-size: cover;
+    background-position: center center;
+    width: 760px;
+    height: 600px;
+    margin: 15px auto;
+    border: 5px solid #ffffff;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#dragon {
+    width: 400px;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    margin-left: -200px;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    margin-left: -110px;
+    top: 20px;
+    font-weight: normal;
+    text-shadow: 0 2px 2px rgba(103, 103, 103, 0.8);
+}
+
+#message {
+    background-color: #084794;
+    border: 5px solid #ffffff;
+    margin: 10px 0;
+    padding: 30px 15px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 0;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+span {
+    background-color: #ffffff;
+    color: #00a03e;
+    font-size: 20px;
+    padding: 2px 15px;
+    font-weight: 700;
+    line-height: 2em;
+}
+
+input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    font-size: 16px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #bdbdbd;
+}
+
+button {
+    width: 19%;
+    font-size: 16px;
+    background-color: #ac3806;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 4px 0px #501a03;
+    outline: none;
+    cursor: pointer;
+}
+
+#effect {
+    display: none;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    margin-left: -128px;
+    width: 256px;
+    height: 256px;
+    background-image: url("/res/27fe2fe4-626e-4312-91de-a8a219be4e61/Thundera.png");
+/*     background-image: url("https://thumbs.gfycat.com/CelebratedUnawareDodo-size_restricted.gif"); */
+    background-position-x: -512px;
+    background-position-y: 0;
+    transform: scale(2.5);
+    
+}
